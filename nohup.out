@@ -1,0 +1,203 @@
+26 Feb 04:39:32 - [33m[nodemon] v1.3.7[39m
+26 Feb 04:39:32 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 04:39:32 - [33m[nodemon] watching: *.*[39m
+26 Feb 04:39:32 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2360
+26 Feb 04:40:11 - [33m[nodemon] v1.3.7[39m
+26 Feb 04:40:11 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 04:40:11 - [33m[nodemon] watching: *.*[39m
+26 Feb 04:40:11 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2195
+26 Feb 04:45:01 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 04:45:01 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2935
+26 Feb 05:12:39 - [33m[nodemon] v1.3.7[39m
+26 Feb 05:12:39 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 05:12:39 - [33m[nodemon] watching: *.*[39m
+26 Feb 05:12:39 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2322
+26 Feb 05:13:20 - [33m[nodemon] v1.3.7[39m
+26 Feb 05:13:20 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 05:13:20 - [33m[nodemon] watching: *.*[39m
+26 Feb 05:13:20 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2196
+26 Feb 05:18:49 - [33m[nodemon] v1.3.7[39m
+26 Feb 05:18:49 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 05:18:49 - [33m[nodemon] watching: *.*[39m
+26 Feb 05:18:49 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 3185
+26 Feb 05:20:18 - [33m[nodemon] v1.3.7[39m
+26 Feb 05:20:18 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 05:20:18 - [33m[nodemon] watching: *.*[39m
+26 Feb 05:20:18 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2314
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+1
+{ [Error: socket hang up] code: 'ECONNRESET' }
+2
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+3
+{ [Error: socket hang up] code: 'ECONNRESET' }
+4
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+5
+{ [Error: socket hang up] code: 'ECONNRESET' }
+6
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+7
+{ [Error: socket hang up] code: 'ECONNRESET' }
+8
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+9
+{ [Error: socket hang up] code: 'ECONNRESET' }
+10
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+11
+{ [Error: socket hang up] code: 'ECONNRESET' }
+12
+26 Feb 06:07:49 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:07:49 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 8622
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+1
+{ [Error: socket hang up] code: 'ECONNRESET' }
+2
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+3
+{ [Error: socket hang up] code: 'ECONNRESET' }
+4
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+5
+{ [Error: socket hang up] code: 'ECONNRESET' }
+6
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+7
+{ [Error: socket hang up] code: 'ECONNRESET' }
+8
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+9
+{ [Error: socket hang up] code: 'ECONNRESET' }
+10
+26 Feb 06:16:55 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:16:55 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 9800
+26 Feb 06:21:03 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:21:03 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 10344
+26 Feb 06:21:27 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:21:27 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 10396
+26 Feb 06:28:48 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:28:48 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 11675
+26 Feb 06:31:07 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:31:07 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 11977
+26 Feb 06:32:00 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:32:00 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 12091
+26 Feb 06:32:50 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:32:50 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 12212
+26 Feb 06:34:31 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:34:31 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 12438
+26 Feb 06:37:29 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:37:29 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 12821
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+1
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+2
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+3
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+4
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+5
+[TypeError: Object #<IncomingMessage> has no method 'getHeader']
+6
+26 Feb 06:38:43 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:38:43 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 12990
+26 Feb 06:39:07 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 06:39:07 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 13042
+26 Feb 07:30:10 - [33m[nodemon] v1.3.7[39m
+26 Feb 07:30:10 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 07:30:10 - [33m[nodemon] watching: *.*[39m
+26 Feb 07:30:10 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 19803
+26 Feb 07:31:53 - [33m[nodemon] v1.3.7[39m
+26 Feb 07:31:53 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 07:31:53 - [33m[nodemon] watching: *.*[39m
+26 Feb 07:31:53 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2227
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+1
+{ [Error: socket hang up] code: 'ECONNRESET' }
+2
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+3
+{ [Error: socket hang up] code: 'ECONNRESET' }
+4
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+5
+{ [Error: socket hang up] code: 'ECONNRESET' }
+6
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+7
+{ [Error: socket hang up] code: 'ECONNRESET' }
+8
+{ [Error: connect ECONNREFUSED]
+  code: 'ECONNREFUSED',
+  errno: 'ECONNREFUSED',
+  syscall: 'connect' }
+9
+{ [Error: socket hang up] code: 'ECONNRESET' }
+10
