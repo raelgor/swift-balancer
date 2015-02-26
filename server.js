@@ -1,50 +1,85 @@
+/* 
+** SwiftBalancer 0.1.0
+** Copyright (c) 2015 Kosmas Papadatos
+** License: MIT
+*/
 
+// Dependencies
 var https = require('https'),
+    http = require('http'),
     httpProxy = require('http-proxy'),
     fs = require('fs'),
-    express = require('express');
+    express = require('express'),
+    config = require('./config'),
+    index = 0;
 
-var urls = [
-    'http://10.240.146.236:80',
-    'http://10.240.218.237:80',
-    'http://10.240.68.14:80'
-];
+var HttpServer = express();
 
-var index = 0;
+// Configure servers
+var servers = config.servers || [];
 
-function randomUrl() {
-    ++index > (urls.length-1) && ( index = 0 );
-    return urls[index];
+// Proxy server
+var proxy = httpProxy.createProxyServer();
+
+// Load splitter
+function getProxyTarget() {
+    if (++index > (servers.length - 1)) index = 0;
+    return servers[index];
 }
 
-var proxy = httpProxy.createProxyServer({});
+// Request handler
+function requestHandler(req, res) {
 
-var server = https.createServer({
-    key: fs.readFileSync('swiftfinger.key'),
-    cert: fs.readFileSync('swiftfinger.crt')
-}, function (req, res) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    var str = ''; for (var key in req) str += ':' + key;
-    req.url.split('::hlb::').length > 1 ?
-    res.end('[LB]10.240.66.151 '+req.headers.host +'::' + process.pid + '::' + Math.floor(process.memoryUsage().rss / 1024 / 1024) + ' MB')
-    :
-    proxy.web(req, res, {target:randomUrl()})
-}).listen(443, '10.240.66.151');
+    // Proxy the request unless ::hlb:: is in the
+    // request URL. In that case return system info
+    if (req.url.split('::hlb::').length > 1 && config.benchmark) {
+        res.end(
+            '[LB2]' +
+            config.bind +
+            '::' +
+            process.pid +
+            '::' +
+            Math.floor(process.memoryUsage().rss / 1024 / 1024) + ' MB'
+        );
+    } else proxy.web(req, res, { target:getProxyTarget() })
 
-var http = express();
-http.get('*', function (req, res) {
-    res.redirect('https://swiftfinger.com' + req.url)
-})
-http.listen(80, '10.240.66.151');
+}
 
-server.on('upgrade', function (req, socket, head) {
-    proxy.ws(req, socket, head, { target: randomUrl() });
-});
+// If SSL is on, start HTTPS server
+if (config.https) {
+    var HttpsServer = https.createServer({
+        key: fs.readFileSync(config.https.key),
+        cert: fs.readFileSync(config.https.crt)
+    }, requestHandler).listen(443, config.bind);
+}
 
-var hangCount = 0;
+// Redirect to HTTPS
+function redirect(req, res) {
+    res.redirect(config.httpRedirectUrl + req.url);
+}
 
-console.log('Proxy started. r10. pid:', process.pid);
-process.on('uncaughtException', function (err) {
-    console.log(err);
-    console.log(++hangCount);
-})
+HttpServer.get('*', config.httpRedirectUrl ? redirect : requestHandler);
+
+HttpServer.listen(80, config.bind);
+
+// Enable websocket support
+if(config.ws){
+
+    config.https && HttpsServer.on('upgrade', function (req, socket, head) {
+        proxy.ws(req, socket, head, { target: getProxyTarget() });
+    });
+
+    HttpServer.on('upgrade', function (req, socket, head) {
+        proxy.ws(req, socket, head, { target: getProxyTarget() });
+    });
+
+}
+
+// Make the process immortal
+if(config.unhangable){
+    process.on('uncaughtException', function (err) {
+        console.log(err);
+    });
+}
+
+console.log('SwiftBalancer is up. PID: ', process.pid);

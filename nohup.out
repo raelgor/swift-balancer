@@ -201,3 +201,397 @@ Proxy started. r10. pid: 2227
 9
 { [Error: socket hang up] code: 'ECONNRESET' }
 10
+26 Feb 08:07:10 - [33m[nodemon] v1.3.7[39m
+26 Feb 08:07:10 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 08:07:10 - [33m[nodemon] watching: *.*[39m
+26 Feb 08:07:10 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 6863
+26 Feb 16:05:57 - [33m[nodemon] v1.3.7[39m
+26 Feb 16:05:57 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 16:05:57 - [33m[nodemon] watching: *.*[39m
+26 Feb 16:05:57 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2242
+26 Feb 16:11:54 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:11:54 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 3005
+26 Feb 16:13:06 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:13:06 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 3168
+26 Feb 16:45:45 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:45:45 - [32m[nodemon] starting `node server.js`[39m
+
+/root/Dropbox/projects/load-balancer/server.js:18
+];
+^
+SyntaxError: Unexpected token ]
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 16:45:45 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 16:46:35 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:46:35 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7464
+26 Feb 16:48:00 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:48:00 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7653
+26 Feb 16:48:21 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:48:21 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7701
+26 Feb 16:48:58 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:48:58 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7778
+[ReferenceError: urls is not defined]
+1
+26 Feb 16:49:31 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:49:31 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7850
+[ReferenceError: urls is not defined]
+1
+26 Feb 16:49:58 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 16:49:58 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 7924
+26 Feb 17:12:42 - [33m[nodemon] v1.3.7[39m
+26 Feb 17:12:42 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 17:12:42 - [33m[nodemon] watching: *.*[39m
+26 Feb 17:12:42 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 10941
+26 Feb 18:30:41 - [33m[nodemon] v1.3.7[39m
+26 Feb 18:30:41 - [33m[nodemon] to restart at any time, enter `rs`[39m
+26 Feb 18:30:41 - [33m[nodemon] watching: *.*[39m
+26 Feb 18:30:41 - [32m[nodemon] starting `node server.js`[39m
+Proxy started. r10. pid: 2246
+26 Feb 18:33:52 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:33:52 - [32m[nodemon] starting `node server.js`[39m
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:28:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:33:53 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:34:22 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:34:22 - [32m[nodemon] starting `node server.js`[39m
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:28:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:34:22 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:36:03 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:36:03 - [32m[nodemon] starting `node server.js`[39m
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:28:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:36:04 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:42:44 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:42:44 - [32m[nodemon] starting `node server.js`[39m
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:29:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:42:44 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:44:36 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:44:36 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', cert: 'swiftfinger.crt' } }
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:30:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:44:37 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:45:32 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:45:32 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', cert: 'swiftfinger.crt' } }
+
+fs.js:439
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+TypeError: path must be a string
+    at Object.fs.openSync (fs.js:439:18)
+    at Object.fs.readFileSync (fs.js:290:15)
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:30:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 18:45:32 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 18:46:29 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:46:29 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' } }
+Proxy started. r10. pid: 4336
+26 Feb 18:48:35 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:48:35 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' } }
+Proxy started. r10. pid: 4608
+26 Feb 18:49:53 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:49:53 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: '' }
+Proxy started. r10. pid: 4768
+26 Feb 18:51:13 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:51:13 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com' }
+Proxy started. r10. pid: 4949
+26 Feb 18:52:10 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:52:10 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com' }
+Proxy started. r10. pid: 5082
+26 Feb 18:53:06 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:53:06 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com' }
+SwiftBalancer is up. PID:  5200
+26 Feb 18:54:09 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:54:09 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com',
+  unhangable: true }
+SwiftBalancer is up. PID:  5345
+26 Feb 18:55:08 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:55:08 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com',
+  unhangable: true,
+  ws: true }
+SwiftBalancer is up. PID:  5469
+26 Feb 18:56:52 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:56:52 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com',
+  unhangable: true,
+  ws: true }
+SwiftBalancer is up. PID:  5699
+26 Feb 18:57:22 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:57:22 - [32m[nodemon] starting `node server.js`[39m
+{ servers: 
+   [ 'http://10.240.146.236:80',
+     'http://10.240.218.237:80',
+     'http://10.240.68.14:80' ],
+  https: { key: 'swiftfinger.key', crt: 'swiftfinger.crt' },
+  httpRedirectUrl: 'https://swiftfinger.com',
+  unhangable: true,
+  ws: true }
+SwiftBalancer is up. PID:  5762
+26 Feb 18:58:14 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:58:15 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  5887
+26 Feb 18:58:52 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:58:52 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  5967
+26 Feb 18:59:49 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 18:59:49 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6084
+26 Feb 19:00:15 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:00:15 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6157
+26 Feb 19:00:58 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:00:58 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6248
+26 Feb 19:01:25 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:01:26 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6308
+26 Feb 19:02:10 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:02:10 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6417
+26 Feb 19:02:33 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:02:33 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6468
+26 Feb 19:04:34 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:04:34 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6730
+26 Feb 19:05:20 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:05:20 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6828
+26 Feb 19:06:10 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:06:11 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  6948
+26 Feb 19:06:37 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:06:37 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  7006
+26 Feb 19:08:02 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:08:02 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  7197
+26 Feb 19:15:13 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:15:14 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  8114
+26 Feb 19:16:43 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:16:43 - [32m[nodemon] starting `node server.js`[39m
+
+/root/Dropbox/projects/load-balancer/server.js:55
+http.listen(80, config.bind);
+     ^
+TypeError: Object #<Object> has no method 'listen'
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:55:6)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 19:16:44 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 19:17:08 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:17:08 - [32m[nodemon] starting `node server.js`[39m
+
+/root/Dropbox/projects/load-balancer/server.js:55
+http.listen(80, config.bind);
+     ^
+TypeError: Object #<Object> has no method 'listen'
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:55:6)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 19:17:08 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 19:17:45 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:17:45 - [32m[nodemon] starting `node server.js`[39m
+
+/root/Dropbox/projects/load-balancer/server.js:56
+http.listen(80, config.bind);
+     ^
+TypeError: Object #<Object> has no method 'listen'
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:56:6)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 19:17:45 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 19:18:54 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:18:54 - [32m[nodemon] starting `node server.js`[39m
+
+/root/Dropbox/projects/load-balancer/server.js:56
+http.listen(80, config.bind);
+     ^
+TypeError: Object #<Object> has no method 'listen'
+    at Object.<anonymous> (/root/Dropbox/projects/load-balancer/server.js:56:6)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:929:3
+26 Feb 19:18:55 - [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+26 Feb 19:19:46 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:19:46 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  8708
+26 Feb 19:20:20 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:20:20 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  8796
+26 Feb 19:22:01 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:22:01 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  9018
+26 Feb 19:23:19 - [32m[nodemon] restarting due to changes...[39m
+26 Feb 19:23:19 - [32m[nodemon] starting `node server.js`[39m
+SwiftBalancer is up. PID:  9180
