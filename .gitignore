@@ -1,4 +1,4 @@
 node_modules/*
-*.crt
-*.key
-*.out
+nohup.out
+swiftfinger.key
+swiftfinger.crt
